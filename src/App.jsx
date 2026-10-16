@@ -18,9 +18,6 @@ const products = [
     description: 'Conexión de APIs, bases de datos y herramientas empresariales.',
   },
   {
-    title: 'HumanOS Engineering',
-    description: 'Trazabilidad de decisiones, documentación técnica y continuidad de proyectos de software.',
-  },
   {
     title: 'Flow / Pancho',
     description: 'Energía personal, enfoque y misiones adaptativas.',
@@ -55,6 +52,7 @@ function App() {
 
         <nav className="main-nav">
           <a href="#inicio">Inicio</a>
+          <a href="#engineering">Engineering</a>
           <a href="#productos">Productos</a>
           <a href="#soluciones">Soluciones</a>
           <a href="#arquitectura">Arquitectura</a>
@@ -62,32 +60,45 @@ function App() {
         </nav>
       </header>
 
-      <section className="hero" id="inicio">
+      <section className="hero engineering-hero" id="inicio">
         <div className="hero-copy">
-          <p className="eyebrow">ENGINEERING AI NATIVE SERVICES ENTERPRISE</p>
-          <h1>Engineering AI Native Services Enterprise.</h1>
+          <p className="eyebrow"><span className="status-dot" /> HUMANOS / ENTERPRISE ENGINEERING</p>
+          <h1>HumanOS <span className="gradient-text">Engineering.</span></h1>
+          <p className="hero-tagline">We build enterprise software that remembers how it was built.</p>
           <p className="hero-text">
-            Desarrollamos software a medida, agentes empresariales, automatizaciones e\n            integraciones para resolver problemas reales. Del diseño a la entrega,\n            con control humano, documentación y resultados verificables.
+            Software empresarial, agentes especializados, automatizaciones e integraciones.
+            Del requerimiento a la entrega, con ingeniería verificable, trazabilidad de
+            decisiones y continuidad técnica en cada misión.
           </p>
-
           <div className="hero-actions">
-            <a className="button button-primary" href="#productos">
-              Explorar servicios
-            </a>
-            <a className="button button-secondary" href="#soluciones">
-              Ver soluciones
-            </a>
+            <a className="button button-primary" href="mailto:contacto@humanos.services?subject=Proyecto%20HumanOS%20Engineering">Hablemos de tu proyecto <span aria-hidden="true">↗</span></a>
+            <a className="button button-secondary" href="#engineering">Conocer la metodología <span aria-hidden="true">↓</span></a>
           </div>
+          <div className="hero-proof"><span>AI-NATIVE ENGINEERING</span><span>HUMAN-IN-THE-LOOP</span><span>TRACEABLE DELIVERY</span></div>
         </div>
+        <div className="hero-orbit" aria-label="Flujo de ingeniería: misión, construcción, verificación y memoria">
+          <div className="orbit orbit-one" /><div className="orbit orbit-two" />
+          <div className="core"><span>H/</span><small>ENGINEERING<br />CORE</small></div>
+          <span className="node node-one">01 / MISSION</span>
+          <span className="node node-two">02 / BUILD</span>
+          <span className="node node-three">03 / VERIFY</span>
+          <span className="node node-four">04 / MEMORY</span>
+        </div>
+      </section>
 
-        <div className="hero-orbit" aria-hidden="true">
-          <div className="orbit orbit-one" />
-          <div className="orbit orbit-two" />
-          <div className="core">HumanOS</div>
-          <span className="node node-one">Contexto</span>
-          <span className="node node-two">Motores</span>
-          <span className="node node-three">Apps</span>
+      <section className="engineering-section" id="engineering">
+        <div className="section-heading">
+          <p className="eyebrow">THE ENGINEERING SYSTEM</p>
+          <h2>De una misión a software que deja evidencia.</h2>
+          <p>Una metodología adaptable a los lenguajes y sistemas de tu empresa. Cada jornada recupera el estado del proyecto, ejecuta trabajo verificable y documenta el siguiente paso.</p>
         </div>
+        <div className="engineering-grid">
+          <article><span>01 — ALIGN</span><h3>La misión correcta.</h3><p>Prioridades, dependencias y capacidad real del equipo antes de empezar.</p></article>
+          <article><span>02 — EXECUTE</span><h3>Construcción acelerada.</h3><p>Arquitectura, desarrollo, agentes, automatizaciones e integraciones con revisión humana.</p></article>
+          <article><span>03 — VERIFY</span><h3>Calidad demostrable.</h3><p>Pruebas, revisión de errores, evidencias y controles antes de entregar.</p></article>
+          <article><span>04 — REMEMBER</span><h3>Memoria de ingeniería.</h3><p>Decisiones, cambios, resultados y continuidad documentados para la siguiente misión.</p></article>
+        </div>
+        <p className="engineering-note">Diseñamos cada solución según el entorno, las políticas y los requisitos de seguridad del cliente. Las capacidades de automatización se validan por proyecto.</p>
       </section>
 
       <section className="section" id="productos">
