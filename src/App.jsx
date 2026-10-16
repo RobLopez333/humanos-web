@@ -2,6 +2,10 @@ import './App.css'
 
 const products = [
   {
+    title: 'Engineering AI Native Services Enterprise',
+    description: 'Ingeniería de software y soluciones empresariales nativas de IA: arquitectura, desarrollo, integración y documentación técnica de extremo a extremo.',
+  },
+  {
     title: 'Flow / Pancho',
     description: 'Energía personal, enfoque y misiones adaptativas.',
   },
@@ -44,17 +48,15 @@ function App() {
 
       <section className="hero" id="inicio">
         <div className="hero-copy">
-          <p className="eyebrow">HUMAN OPERATING SYSTEM</p>
-          <h1>Un sistema operativo para humanos.</h1>
+          <p className="eyebrow">ENGINEERING AI NATIVE SERVICES ENTERPRISE</p>
+          <h1>Engineering AI Native Services Enterprise.</h1>
           <p className="hero-text">
-            HumanOS conecta contexto, inteligencia, automatización y
-            aplicaciones especializadas para ayudarte a operar mejor en el
-            mundo real.
+            HumanOS ofrece ingeniería y desarrollo de soluciones empresariales nativas de IA,\n            desde el diseño y la arquitectura hasta la integración y operación.\n            Nuestro ecosistema de productos demuestra esa capacidad en el mundo real.
           </p>
 
           <div className="hero-actions">
             <a className="button button-primary" href="#productos">
-              Explorar HumanOS
+              Explorar servicios
             </a>
             <a className="button button-secondary" href="#soluciones">
               Ver soluciones
