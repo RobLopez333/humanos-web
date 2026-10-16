@@ -2,8 +2,24 @@ import './App.css'
 
 const products = [
   {
-    title: 'Engineering AI Native Services Enterprise',
-    description: 'Ingeniería de software y soluciones empresariales nativas de IA: arquitectura, desarrollo, integración y documentación técnica de extremo a extremo.',
+    title: 'Agentes empresariales',
+    description: 'Asistentes especializados para ventas, servicio y operaciones, con permisos y supervisión humana.',
+  },
+  {
+    title: 'Automatizaciones',
+    description: 'Flujos de seguimiento, aprobaciones, notificaciones y reportes conectados con tus sistemas.',
+  },
+  {
+    title: 'Software a medida',
+    description: 'Aplicaciones, CRM, paneles operativos y MVP diseñados para cada negocio.',
+  },
+  {
+    title: 'Integraciones',
+    description: 'Conexión de APIs, bases de datos y herramientas empresariales.',
+  },
+  {
+    title: 'HumanOS Engineering',
+    description: 'Trazabilidad de decisiones, documentación técnica y continuidad de proyectos de software.',
   },
   {
     title: 'Flow / Pancho',
@@ -51,7 +67,7 @@ function App() {
           <p className="eyebrow">ENGINEERING AI NATIVE SERVICES ENTERPRISE</p>
           <h1>Engineering AI Native Services Enterprise.</h1>
           <p className="hero-text">
-            HumanOS ofrece ingeniería y desarrollo de soluciones empresariales nativas de IA,\n            desde el diseño y la arquitectura hasta la integración y operación.\n            Nuestro ecosistema de productos demuestra esa capacidad en el mundo real.
+            Desarrollamos software a medida, agentes empresariales, automatizaciones e\n            integraciones para resolver problemas reales. Del diseño a la entrega,\n            con control humano, documentación y resultados verificables.
           </p>
 
           <div className="hero-actions">
@@ -136,10 +152,15 @@ function App() {
       <section className="section solutions-section" id="soluciones">
         <div className="section-heading">
           <p className="eyebrow">SOLUCIONES</p>
-          <h2>Tecnología diseñada alrededor de la vida real.</h2>
+          <h2>Software, agentes y automatizaciones para empresas.</h2>
         </div>
 
         <div className="solution-list">
+          <div>Desarrollo de software empresarial a medida</div>
+          <div>Agentes especializados y asistentes operativos</div>
+          <div>Automatización de procesos y seguimientos</div>
+          <div>Integraciones de sistemas, APIs y datos</div>
+          <div>Documentación y continuidad de ingeniería</div>
           <div>Productividad y energía personal</div>
           <div>Hogares inteligentes y privados</div>
           <div>Automatización y robótica</div>
