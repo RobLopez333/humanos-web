@@ -1,0 +1,13 @@
+{
+  "character_id": "HA-002",
+  "name": "Dr. Lurias",
+  "series": "HUMAN AWARE — The Human Errors",
+  "status": "OFFICIAL_APPROVED_VISUAL_REFERENCE",
+  "asset": "dr-lurias-official-3d.png",
+  "sha256": "3c89ae5fd00334bf5a6a8c9ee7b0406487da9e39195b742a529d87e0567b4e73",
+  "dimensions": "1199x1312",
+  "mime_type": "image/png",
+  "date_approved": "2026-11-05",
+  "design": "Figura 3D coleccionable de científico excéntrico sentado, casco transparente con cerebro rosa y dos bombillas naranjas; cabello, cejas y bigote blancos, nariz roja, grandes lentes mecánicos negros, bata manchada, botas negras, manos entrelazadas, piernas cruzadas, base HA-002; laboratorio con libros y frascos. No confundir con HA-001 El Psicópata.",
+  "note": "Asset must be committed separately as PNG to this same directory; manifest alone does not contain image bytes."
+}
